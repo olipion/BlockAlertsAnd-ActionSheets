@@ -1,3 +1,10 @@
+# Olipion's modification to BlockActionSheets
+
+I needed to select two option for a set of button in my action sheet.
+I decided to add a segmented control in action sheet.
+
+
+
 # How it all started: A love and hate story.
 
 Since the first time I had to use an UIActionSheet or UIAlertView in an app I disliked the way it was implemented. It was a pain if you had two kinds of alerts in the same class for example as everything is done by invoking a delegate method. I also disliked the fact that the code that should be executed in the event of a button was almost always in a separate place in your source code. The code needs a lot of constants, switches and you need to tag your UIAlertView.... I hated it!
